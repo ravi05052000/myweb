@@ -17,7 +17,6 @@ pipeline{
             }
         }
        sshagent(['ravi1234']) {
-    // some block
 }
                 sshagent(['tomcat-new']) {
                 sh """
